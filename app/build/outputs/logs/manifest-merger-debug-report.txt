@@ -1,0 +1,699 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:2:1-213:12
+	package
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.4.4] C:\Users\anmol\.android\build-cache\156d3dfa76e99fe1329457f2fb493a6826f1b414\output\AndroidManifest.xml:11:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\anmol\.android\build-cache\927e16f898b1b0bb9ac31a5d6a07a1f2ab949681\output\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\anmol\.android\build-cache\641fb22bcb33a52af9292b7af6c22de04ee5c93a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\anmol\.android\build-cache\f7e9091190b144045b6a2466716c83c15a488a72\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\anmol\.android\build-cache\ab299ac8e2492dd3d9a5667a530d229ebbf46883\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\anmol\.android\build-cache\9f2b103a9d4ab0c2187adf74672c625986652409\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\f24a6c6b13aea95e5aca67507b71d95ed46fc54a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:7:22-76
+application
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:8:5-211:19
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\anmol\.android\build-cache\ece30e890ac7f00b48cca3d9361720a57cc400c8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] C:\Users\anmol\.android\build-cache\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\anmol\.android\build-cache\ba18a3ee94f722aae549137a999ef8920a8c7df0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\anmol\.android\build-cache\d35ca4e7b83dffcd3e32aeb5c8f2589e1502d1e3\output\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:45:5-53:19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\anmol\.android\build-cache\925d298a347176c09a3426224d81efd834df1ce4\output\AndroidManifest.xml:5:5-19
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\anmol\.android\build-cache\58c6c422fef695e4a8c458fb350f0dc2a24434d0\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\anmol\.android\build-cache\a2c9214c4bd4e4195cfc162c5a4d9b4526f20f60\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\anmol\.android\build-cache\641fb22bcb33a52af9292b7af6c22de04ee5c93a\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\anmol\.android\build-cache\19d7dabf6e3d726b43a27c5703005d4a71907a14\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\anmol\.android\build-cache\30b60cfb3b3c1096b3910f6c50e8482efcce1843\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\anmol\.android\build-cache\2b434c7d81d5e11b0973bc1216d2d0571f50096f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\anmol\.android\build-cache\bc35ba7084a132c99ed2c14ef7bc667c6cf9452f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\anmol\.android\build-cache\c6057596fe4623a0124e813c985ba398d85e8698\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.0] C:\Users\anmol\.android\build-cache\84770e04b9cdc7d70ff243e923ca5ba3dd4f78be\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\anmol\.android\build-cache\eebee0f3a99c49c768aa6349cc3053c38747ce4b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\anmol\.android\build-cache\a69f76f7a9a6aced8d3c2f969cdd1a17899b95b2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\anmol\.android\build-cache\4814114130953b6d0abcedce0308a73f94412b75\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\anmol\.android\build-cache\f7e9091190b144045b6a2466716c83c15a488a72\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\anmol\.android\build-cache\7d522dd52cc852abfa73bec730282b1c3dde450e\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\anmol\.android\build-cache\7869e716ae8f749ca5e342c9f855f992df63fd32\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\anmol\.android\build-cache\1f41d169ae1d8b75fddf848ef2463c9318372780\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\anmol\.android\build-cache\14f73a8f652b0ad4281b6cb834e0dc94e3615c1b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\anmol\.android\build-cache\33438ef1386210f2df5e3b345635fb4a014cd0ed\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\anmol\.android\build-cache\ab299ac8e2492dd3d9a5667a530d229ebbf46883\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\anmol\.android\build-cache\b810c3ebdc6cdac95cff2de234af9a7af7e5b800\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\anmol\.android\build-cache\9f2b103a9d4ab0c2187adf74672c625986652409\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\anmol\.android\build-cache\4157f408d9fd9c94d7bc67bd04f30360c415e900\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\anmol\.android\build-cache\70e0d8e428ba9c3d3c97bf61db8cdee9e7f7042f\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\anmol\.android\build-cache\81e4f95d9310b45419eeffd06b9f77f68b519a8f\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\anmol\.android\build-cache\c2980029d5722ccc7342cea3d73edb96819ffa8b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\anmol\.android\build-cache\f9c75c21d57337191bbbac73e61676b25b035aff\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\anmol\.android\build-cache\1b2cd1c3296e62aaed91ce9802b1fc5b5baf36cd\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\anmol\.android\build-cache\04974fad795f53a9c0d66a9e350e294fbd808014\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\f24a6c6b13aea95e5aca67507b71d95ed46fc54a\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\anmol\.android\build-cache\dddb08007ea794b1fdd5c9eb3907f26c698aeb3f\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\anmol\.android\build-cache\b0335ac2d67fb0f93ba7698940757818684b7fe2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\anmol\.android\build-cache\ad772afaf5a0904f2835441603b557c003dd240a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\anmol\.android\build-cache\18ed32060d1d8630f92f273376425992eb098e9c\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\anmol\.android\build-cache\c6813dfd21e5f7165b87d505f45a6a3505686ef9\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\anmol\.android\build-cache\8b3628dcfbdf7e4f2ea4b7c95721fd93856f258b\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\anmol\.android\build-cache\bda4e39f06b32d70592766ee0842465d7b0ccd6c\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\anmol\.android\build-cache\f51fa137958f05ca8ea3bd7dbd0597af15e01a7e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\anmol\.android\build-cache\b1dcdc28640967c91df08f7ca16bb1a75764699c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\anmol\.android\build-cache\42279133743d87d3f7e49fab26e16725edd70e5f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\anmol\.android\build-cache\2ea4effcbf0096ad5a833f53042812be994ac2f5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\anmol\.android\build-cache\5355eb2fd49976a4b1198440a9ebb05fd6d78f76\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\anmol\.android\build-cache\9fadd14feeb26662a912bfe6f4b7e7cb24e750fc\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:14:9-35
+	android:windowSoftInputMode
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:16:9-64
+	android:roundIcon
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:13:9-54
+	android:allowBackup
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:9:9-32
+activity#com.tophawks.vm.visualmerchandising.Activities.MainHomeActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:18:9-23:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:18:19-62
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.DEFAULT
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:21:27-73
+activity#com.tophawks.vm.visualmerchandising.Modules.VisualMerchandising.AddProduct
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:windowSoftInputMode
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:25:13-52
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:24:19-73
+activity#com.tophawks.vm.visualmerchandising.Modules.VisualMerchandising.AllProducts
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:31:9-36:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:31:19-74
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:37:9-39:59
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:38:13-76
+activity#com.tophawks.vm.visualmerchandising.Activities.VisualMerchandisingHomePage
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:40:9-45:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:40:19-73
+activity#com.tophawks.vm.visualmerchandising.Activities.StockManagementHomePage
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:46:9-51:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:46:19-69
+activity#com.tophawks.vm.visualmerchandising.Modules.VisualMerchandising.ProductDescription
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:52:9-57:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:52:19-81
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.UpdateProductList
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:58:9-66:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:60:13-71
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:59:13-70
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.AddStore
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:67:9-72:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:67:19-67
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.StockReport
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:73:9-78:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:73:19-70
+supports-screens
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:84:9-89:44
+	android:largeScreens
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:86:13-40
+	android:smallScreens
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:88:13-40
+	android:normalScreens
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:87:13-41
+	android:xlargeScreens
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:89:13-41
+	android:anyDensity
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:85:13-38
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.AvailableProductActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:91:9-96:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:91:19-83
+activity#com.tophawks.vm.visualmerchandising.Modules.SalesManagement.SalesHomeActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:97:9-105:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:99:13-62
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:98:13-70
+activity#com.tophawks.vm.visualmerchandising.Modules.AttendanceManagement.AttendanceHomeActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:108:9-89
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:108:19-86
+activity#com.tophawks.vm.visualmerchandising.Modules.AttendanceManagement.EnrollActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:109:9-81
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:109:19-78
+activity#com.tophawks.vm.visualmerchandising.Modules.VisualMerchandising.VMReport
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:110:9-115:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:110:19-71
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.UpdateStore
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:116:9-121:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:116:19-70
+activity#com.tophawks.vm.visualmerchandising.Activities.SplashScreen
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:122:9-129:20
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:124:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:123:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:125:13-128:29
+category#android.intent.category.LAUNCHER
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:127:17-77
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:127:27-74
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.MarketVisit
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:130:9-138:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:132:13-64
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:133:13-44
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:131:13-64
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.StoreStocks
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:139:9-144:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:139:19-70
+activity#com.tophawks.vm.visualmerchandising.Modules.StockManagement.StoreDetails
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:145:9-150:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:145:19-71
+activity#com.tophawks.vm.visualmerchandising.Activities.LoginActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:151:9-156:20
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:151:19-59
+activity#com.tophawks.vm.visualmerchandising.Training.MainActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:157:9-165:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:159:13-37
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:160:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:158:13-50
+activity#com.tophawks.vm.visualmerchandising.Training.Modules
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:166:9-174:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:168:13-35
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:169:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:167:13-45
+activity#com.tophawks.vm.visualmerchandising.Training.CardActivity
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:175:9-183:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:177:13-36
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:178:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:176:13-50
+activity#com.tophawks.vm.visualmerchandising.Training.Tests
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:184:9-192:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:186:13-57
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:187:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:185:13-43
+activity#com.tophawks.vm.visualmerchandising.Training.TestWeb
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:193:9-201:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:195:13-57
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:196:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:194:13-45
+activity#com.tophawks.vm.visualmerchandising.Training.TestWeb2
+ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:202:9-210:20
+	android:label
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:204:13-57
+	android:theme
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:205:13-56
+	android:name
+		ADDED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:203:13-46
+uses-sdk
+INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\anmol\.android\build-cache\3ec321179c4ee0ba504202cce7423c110fad5b5b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\anmol\.android\build-cache\ece30e890ac7f00b48cca3d9361720a57cc400c8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.0] C:\Users\anmol\.android\build-cache\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.0] C:\Users\anmol\.android\build-cache\ba18a3ee94f722aae549137a999ef8920a8c7df0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\anmol\.android\build-cache\d35ca4e7b83dffcd3e32aeb5c8f2589e1502d1e3\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-database:0.4.4] C:\Users\anmol\.android\build-cache\156d3dfa76e99fe1329457f2fb493a6826f1b414\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\anmol\.android\build-cache\93e9a74f37c234c8887010486c46b580b130fd11\output\AndroidManifest.xml:20:5-43
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.3.1] C:\Users\anmol\.android\build-cache\030e63e76e51406523314605a21c8e2577808987\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\anmol\.android\build-cache\927e16f898b1b0bb9ac31a5d6a07a1f2ab949681\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:19:5-43
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\anmol\.android\build-cache\925d298a347176c09a3426224d81efd834df1ce4\output\AndroidManifest.xml:3:5-72
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\anmol\.android\build-cache\58c6c422fef695e4a8c458fb350f0dc2a24434d0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\anmol\.android\build-cache\a2c9214c4bd4e4195cfc162c5a4d9b4526f20f60\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\anmol\.android\build-cache\6ef2532f032c83edeb586ae10d0c6dda57d6e93d\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\anmol\.android\build-cache\641fb22bcb33a52af9292b7af6c22de04ee5c93a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] C:\Users\anmol\.android\build-cache\e05d94a787a5a6f4a6be1be3636f9715e3783fd0\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\anmol\.android\build-cache\19d7dabf6e3d726b43a27c5703005d4a71907a14\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\anmol\.android\build-cache\30b60cfb3b3c1096b3910f6c50e8482efcce1843\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\anmol\.android\build-cache\2b434c7d81d5e11b0973bc1216d2d0571f50096f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\anmol\.android\build-cache\bc35ba7084a132c99ed2c14ef7bc667c6cf9452f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\anmol\.android\build-cache\c6057596fe4623a0124e813c985ba398d85e8698\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.0] C:\Users\anmol\.android\build-cache\84770e04b9cdc7d70ff243e923ca5ba3dd4f78be\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\anmol\.android\build-cache\eebee0f3a99c49c768aa6349cc3053c38747ce4b\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\anmol\.android\build-cache\a69f76f7a9a6aced8d3c2f969cdd1a17899b95b2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\anmol\.android\build-cache\4814114130953b6d0abcedce0308a73f94412b75\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\anmol\.android\build-cache\f7e9091190b144045b6a2466716c83c15a488a72\output\AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\anmol\.android\build-cache\7d522dd52cc852abfa73bec730282b1c3dde450e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\anmol\.android\build-cache\d1b9b28b7d673073d4e5ff48f44bb91efa04ef12\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\anmol\.android\build-cache\ca1ae715a69289fb12e4c5c064cc1a6df908944d\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:10.0.1] C:\Users\anmol\.android\build-cache\9a3040cfe4bdffc8fb0821ac56c1164eee9716bf\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] C:\Users\anmol\.android\build-cache\ed3bc94b40ca07330fb35e91305141b4187fd423\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\anmol\.android\build-cache\7869e716ae8f749ca5e342c9f855f992df63fd32\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\anmol\.android\build-cache\1f41d169ae1d8b75fddf848ef2463c9318372780\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\anmol\.android\build-cache\14f73a8f652b0ad4281b6cb834e0dc94e3615c1b\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\anmol\.android\build-cache\33438ef1386210f2df5e3b345635fb4a014cd0ed\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\anmol\.android\build-cache\ab299ac8e2492dd3d9a5667a530d229ebbf46883\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\anmol\.android\build-cache\b810c3ebdc6cdac95cff2de234af9a7af7e5b800\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\anmol\.android\build-cache\9f2b103a9d4ab0c2187adf74672c625986652409\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] C:\Users\anmol\.android\build-cache\654d692257c1fb5a70a93c85693fb23bc2f706a5\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\anmol\.android\build-cache\4157f408d9fd9c94d7bc67bd04f30360c415e900\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\anmol\.android\build-cache\70e0d8e428ba9c3d3c97bf61db8cdee9e7f7042f\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\anmol\.android\build-cache\81e4f95d9310b45419eeffd06b9f77f68b519a8f\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\anmol\.android\build-cache\c2980029d5722ccc7342cea3d73edb96819ffa8b\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\anmol\.android\build-cache\f9c75c21d57337191bbbac73e61676b25b035aff\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\anmol\.android\build-cache\1b2cd1c3296e62aaed91ce9802b1fc5b5baf36cd\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] C:\Users\anmol\.android\build-cache\681ebc1699364b1ab0113be83eaf3e25d740a544\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\anmol\.android\build-cache\04974fad795f53a9c0d66a9e350e294fbd808014\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\f24a6c6b13aea95e5aca67507b71d95ed46fc54a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\anmol\.android\build-cache\dddb08007ea794b1fdd5c9eb3907f26c698aeb3f\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:10.0.1] C:\Users\anmol\.android\build-cache\57d9cd43c9bf5c2e6110737f7a0bb98d49be5323\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\anmol\.android\build-cache\b0335ac2d67fb0f93ba7698940757818684b7fe2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\anmol\.android\build-cache\ad772afaf5a0904f2835441603b557c003dd240a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\anmol\.android\build-cache\18ed32060d1d8630f92f273376425992eb098e9c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\anmol\.android\build-cache\c6813dfd21e5f7165b87d505f45a6a3505686ef9\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\anmol\.android\build-cache\8b3628dcfbdf7e4f2ea4b7c95721fd93856f258b\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\anmol\.android\build-cache\bda4e39f06b32d70592766ee0842465d7b0ccd6c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\anmol\.android\build-cache\f51fa137958f05ca8ea3bd7dbd0597af15e01a7e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\anmol\.android\build-cache\b1dcdc28640967c91df08f7ca16bb1a75764699c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\anmol\.android\build-cache\42279133743d87d3f7e49fab26e16725edd70e5f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\anmol\.android\build-cache\2ea4effcbf0096ad5a833f53042812be994ac2f5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\anmol\.android\build-cache\5355eb2fd49976a4b1198440a9ebb05fd6d78f76\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\anmol\.android\build-cache\9fadd14feeb26662a912bfe6f4b7e7cb24e750fc\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.0] C:\Users\anmol\.android\build-cache\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\anmol\.android\build-cache\ece30e890ac7f00b48cca3d9361720a57cc400c8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] C:\Users\anmol\.android\build-cache\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\anmol\.android\build-cache\ba18a3ee94f722aae549137a999ef8920a8c7df0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\anmol\.android\build-cache\93e9a74f37c234c8887010486c46b580b130fd11\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\anmol\.android\build-cache\30b60cfb3b3c1096b3910f6c50e8482efcce1843\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\anmol\.android\build-cache\2b434c7d81d5e11b0973bc1216d2d0571f50096f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\anmol\.android\build-cache\bc35ba7084a132c99ed2c14ef7bc667c6cf9452f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\anmol\.android\build-cache\c6057596fe4623a0124e813c985ba398d85e8698\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.0] C:\Users\anmol\.android\build-cache\84770e04b9cdc7d70ff243e923ca5ba3dd4f78be\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\anmol\.android\build-cache\f51fa137958f05ca8ea3bd7dbd0597af15e01a7e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\anmol\.android\build-cache\b1dcdc28640967c91df08f7ca16bb1a75764699c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\anmol\.android\build-cache\42279133743d87d3f7e49fab26e16725edd70e5f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\anmol\.android\build-cache\2ea4effcbf0096ad5a833f53042812be994ac2f5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\anmol\.android\build-cache\5355eb2fd49976a4b1198440a9ebb05fd6d78f76\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\anmol\.android\build-cache\9fadd14feeb26662a912bfe6f4b7e7cb24e750fc\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\anmol\.android\build-cache\ece30e890ac7f00b48cca3d9361720a57cc400c8\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\anmol\.android\build-cache\ece30e890ac7f00b48cca3d9361720a57cc400c8\output\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\anmol\.android\build-cache\927e16f898b1b0bb9ac31a5d6a07a1f2ab949681\output\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\anmol\.android\build-cache\927e16f898b1b0bb9ac31a5d6a07a1f2ab949681\output\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\TracknTrain-master(2)\TracknTrain-master\app\src\main\AndroidManifest.xml:2:1-213:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:46:9-52:63
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:48:13-45
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:49:13-56
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\anmol\.android\build-cache\77e5d7332a8e1f718d63f7631bf4304e33a8a59b\output\AndroidManifest.xml:47:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\anmol\.android\build-cache\641fb22bcb33a52af9292b7af6c22de04ee5c93a\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\anmol\.android\build-cache\70e0d8e428ba9c3d3c97bf61db8cdee9e7f7042f\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\f24a6c6b13aea95e5aca67507b71d95ed46fc54a\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\anmol\.android\build-cache\b054457890526cc55bb547ab1e87e7f45133901b\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\anmol\.android\build-cache\641fb22bcb33a52af9292b7af6c22de04ee5c93a\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\f24a6c6b13aea95e5aca67507b71d95ed46fc54a\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\anmol\.android\build-cache\641fb22bcb33a52af9292b7af6c22de04ee5c93a\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\anmol\.android\build-cache\1787cfedbc381d114b87650bbefb77bb42ff9bf1\output\AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\anmol\.android\build-cache\263fc3edb3d265bad93a5a18d210da7507d180dc\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\anmol\.android\build-cache\ef073888d71b7d52404e75ecc246fe91a64ca143\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\anmol\.android\build-cache\d069968e43379cf5dbbd8630ac258a0b17314ad0\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\anmol\.android\build-cache\ab299ac8e2492dd3d9a5667a530d229ebbf46883\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\anmol\.android\build-cache\9f2b103a9d4ab0c2187adf74672c625986652409\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\anmol\.android\build-cache\ab299ac8e2492dd3d9a5667a530d229ebbf46883\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\anmol\.android\build-cache\e8a554cde691d1b0e0a0b5dffd506aab3d10ee5a\output\AndroidManifest.xml:30:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\anmol\.android\build-cache\ea9dce94c779a6379eb3ee3f97b2519c54fc7fe1\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\anmol\.android\build-cache\18ed32060d1d8630f92f273376425992eb098e9c\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\anmol\.android\build-cache\18ed32060d1d8630f92f273376425992eb098e9c\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\anmol\.android\build-cache\18ed32060d1d8630f92f273376425992eb098e9c\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\anmol\.android\build-cache\18ed32060d1d8630f92f273376425992eb098e9c\output\AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\anmol\.android\build-cache\68a42e0553e59ed28a10dd6f6ff7ac94d6ac41d1\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\anmol\.android\build-cache\3001f9ab4cd48b81698a5de420c6c7786c114c63\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\anmol\.android\build-cache\547d2ce779ef4d825c748c578ade082fd187fd4d\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\anmol\.android\build-cache\937595f977dcfe18f5e33f3d2ea230c0389a33c5\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\anmol\.android\build-cache\bda4e39f06b32d70592766ee0842465d7b0ccd6c\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\anmol\.android\build-cache\bda4e39f06b32d70592766ee0842465d7b0ccd6c\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\anmol\.android\build-cache\bda4e39f06b32d70592766ee0842465d7b0ccd6c\output\AndroidManifest.xml:20:20-65

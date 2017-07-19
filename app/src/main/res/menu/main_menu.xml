@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/main_add_product"
+        android:title="Add Poduct"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+
+    <!--<item android:id="@+id/main_all_products"-->
+    <!--android:title="All Products"-->
+    <!--android:icon="@drawable/product_list_title"-->
+    <!--app:showAsAction="always"/>-->
+
+
+</menu>

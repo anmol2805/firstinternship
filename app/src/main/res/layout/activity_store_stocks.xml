@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tophawks.vm.visualmerchandising.Modules.StockManagement.StoreStocks">
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize">-->
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/store_stock_toolbar">-->
+        <!--</android.support.v7.widget.Toolbar>-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+    <TextView
+        android:id="@+id/store_stock_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Store Name"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Products in Inventory"
+        />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="20sp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginRight="10sp"-->
+            <!--android:layout_marginLeft="10sp"-->
+            <!--android:text="Brands"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="20sp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Product Category"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="20sp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_weight="3"-->
+            <!--android:text="Product"-->
+            <!--android:layout_marginRight="10sp"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="40sp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:layout_marginRight="10sp"-->
+            <!--android:layout_marginLeft="10sp"-->
+            <!--/>-->
+    <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="40sp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--/>-->
+    <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="40sp"-->
+            <!--android:layout_weight="3"-->
+        <!--android:layout_marginRight="10sp"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/store_stock_product_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="5sp"
+        android:layout_weight="9"></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="generateReport"
+        android:background="@drawable/roundrect">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="GENERATE STOCK REPORT"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

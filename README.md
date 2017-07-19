@@ -1,0 +1,1 @@
+Trainig, VM , Stock

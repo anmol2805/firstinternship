@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "821907672531",
+    "firebase_url": "https://trackntrain-9219f.firebaseio.com",
+    "project_id": "trackntrain-9219f",
+    "storage_bucket": "trackntrain-9219f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821907672531:android:d505c6921f208014",
+        "android_client_info": {
+          "package_name": "com.tophawks.vm.visualmerchandising"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821907672531-4b12m79vph23iei0g5tvtr4hh88pe95q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcNR88GrWc9Vjh8vpXp1wFQM5Rka25hlc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

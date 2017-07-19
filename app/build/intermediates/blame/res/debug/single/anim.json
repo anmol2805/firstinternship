@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_down.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\anim\\scale_down.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\2b434c7d81d5e11b0973bc1216d2d0571f50096f\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\26d58cc6f8c2c199592c23cc7780b159f4ff40a1\\output\\res\\anim\\design_snackbar_in.xml"
+    }
+]

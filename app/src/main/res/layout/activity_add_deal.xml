@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tophawks.vm.visualmerchandising.Modules.SalesManagement.AddDealActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:text="Create Deal" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Name"
+        android:textColor="#000"
+        android:layout_alignBaseline="@+id/editText3"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_toStartOf="@+id/editText3"
+        android:layout_marginEnd="29dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/label"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Client Name" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="14dp"
+        android:textColor="#000"
+        android:text="Store Address" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Client Address" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textColor="#000"
+        android:layout_alignBaseline="@+id/editText8"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_alignStart="@+id/textView26" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contact No" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="11dp"
+        android:textColor="#000"
+        android:hint="Deal Name" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Deal Name" />
+
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView28"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:text="Start date" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Start Date"
+        android:textSize="18dp"
+        android:textColor="#3F51B5"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deadline"
+        android:textColor="#000"
+        android:layout_alignBaseline="@+id/editText12"
+        android:layout_alignBottom="@+id/editText12"
+        android:layout_alignStart="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText11"
+        android:layout_below="@+id/editText11"
+        android:ems="10"
+        android:textColor="#FFF70612"
+        android:inputType="textPersonName"
+        android:text="Deadline"
+        android:textSize="18dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView31"
+        android:layout_below="@+id/editText12"
+        android:layout_marginTop="13dp"
+        android:textColor="#000"
+        android:text="Status" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/editText12"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_alignEnd="@+id/editText12">
+
+        <RadioButton
+            android:id="@+id/radiopending"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView32"
+            android:layout_alignBottom="@+id/textView32"
+            android:layout_alignStart="@+id/editText12"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pending"
+            android:textColor="#FFF70612"
+            />
+
+        <RadioButton
+            android:id="@+id/radiodone"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView31"
+            android:layout_below="@+id/radioGroup"
+            android:text="Done"
+            android:textColor="#FF36E70E"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/createdeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/radioGroup"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:text="Add Deal"
+        android:textColor="#fff"
+        />
+
+
+
+
+</RelativeLayout>

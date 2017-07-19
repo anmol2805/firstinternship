@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_marketvisit"
+            android:icon="@drawable/mv"
+            android:title="Market Visit" />
+        <item
+            android:id="@+id/nav_addstore"
+            android:icon="@drawable/as"
+            android:title="Add Store" />
+        <item
+            android:id="@+id/nav_editstore"
+            android:icon="@drawable/es"
+            android:title="Edit Store" />
+        <item
+            android:id="@+id/nav_stockreport"
+            android:icon="@drawable/sr"
+            android:title="Stock Report" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

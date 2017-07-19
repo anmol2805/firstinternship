@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+
+    tools:context="com.tophawks.vm.visualmerchandising.fragment.StockMHomeFragment">
+
+
+    <ImageView
+        android:id="@+id/stock_home_add_store_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/addpro"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/stock_home_update_store_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/updateproduct"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageView
+        android:id="@+id/stock_home_image_report_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:src="@drawable/search"
+
+        android:layout_above="@+id/textView45"
+        android:layout_toEndOf="@+id/stock_home_stock_report_iv" />
+
+    <ImageView
+        android:id="@+id/stock_home_market_visit_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="50dp"
+
+        android:src="@drawable/update"
+        android:layout_above="@+id/textView45"
+        android:layout_alignEnd="@+id/textView38" />
+
+
+    <ImageView
+        android:id="@+id/stock_home_stock_report_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/stockreport" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stock_home_stock_report_iv"
+        android:layout_centerHorizontal="true"
+        android:text="STOCK REPORT"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/stock_home_add_store_iv"
+        android:layout_below="@+id/stock_home_add_store_iv"
+        android:text="ADD STORE"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE STORE"
+        android:textStyle="bold"
+        android:layout_below="@+id/stock_home_update_store_iv"
+        android:layout_alignStart="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="72dp"
+        android:text="IMAGE REPORT"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARKET VISIT"
+        android:textStyle="bold"
+        android:layout_below="@+id/stock_home_market_visit_iv"
+        android:layout_alignEnd="@+id/stock_home_add_store_iv" />
+
+
+</RelativeLayout>

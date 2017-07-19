@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">821907672531-4b12m79vph23iei0g5tvtr4hh88pe95q.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://trackntrain-9219f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">821907672531</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcNR88GrWc9Vjh8vpXp1wFQM5Rka25hlc</string>
+    <string name="google_app_id" translatable="false">1:821907672531:android:d505c6921f208014</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcNR88GrWc9Vjh8vpXp1wFQM5Rka25hlc</string>
+    <string name="google_storage_bucket" translatable="false">trackntrain-9219f.appspot.com</string>
+</resources>

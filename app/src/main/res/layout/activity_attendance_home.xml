@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/deskempcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="?android:selectableItemBackground"
+            android:padding="14dp">
+
+            <FrameLayout
+                android:id="@+id/newsImageContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/avatar"
+                    android:src="@drawable/desk_emp_icon"
+                    android:maxWidth="72dp"
+                    android:maxHeight="72dp"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:text="Desk Employee"
+                android:id="@+id/newsTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#222"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/newsImageContainer" />
+
+            <TextView
+                android:text="Category"
+                android:id="@+id/newsCategory"
+                android:textAllCaps="true"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_gravity="end|right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/newsImageContainer" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/fieldempcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="?android:selectableItemBackground"
+            android:padding="14dp">
+
+            <FrameLayout
+                android:id="@+id/newsImageContainer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/avatar2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:maxHeight="72dp"
+                    android:maxWidth="72dp"
+                    android:src="@drawable/field_emp_icon" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/newsTitleText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/newsImageContainer2"
+                android:text="Field Employee"
+                android:textColor="#222"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/newsViewCount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/newsCommentCount2"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:text="250"
+                android:textSize="12sp" />
+
+
+
+            <TextView
+                android:id="@+id/newsCommentCount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/newsCategory2"
+                android:text="250"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/newsCategory2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/newsImageContainer2"
+                android:layout_gravity="end|right"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/newsImageContainer2"
+                android:text="Category"
+                android:textAlignment="textEnd"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

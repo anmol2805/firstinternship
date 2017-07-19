@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\crop_image_menu.xml",
+        "source": "C:\\Users\\anmol\\.android\\build-cache\\030e63e76e51406523314605a21c8e2577808987\\output\\res\\menu\\crop_image_menu.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_menu.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\search_menu.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_sales_home_drawer.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\activity_sales_home_drawer.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\deal_menu.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\deal_menu.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_market_visit.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\menu_market_visit.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sales_home.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\sales_home.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_stock_drawer.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\activity_main_stock_drawer.xml"
+    },
+    {
+        "merged": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "F:\\TracknTrain-master(2)\\TracknTrain-master\\app\\src\\main\\res\\menu\\main_menu.xml"
+    }
+]

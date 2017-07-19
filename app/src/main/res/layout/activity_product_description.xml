@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tophawks.vm.visualmerchandising.Modules.VisualMerchandising.ProductDescription">
+
+
+    <LinearLayout
+        android:id="@+id/productLayoutForDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/productDisplayOnClickImage"
+                android:layout_width="match_parent"
+                android:layout_height="220sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:padding="10sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/add_btn" />
+
+            <ImageButton
+                android:id="@+id/description_dislike_ib"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:alpha="0.6"
+                android:background="@drawable/grey"
+                android:src="@drawable/ic_action_dislike" />
+
+            <ImageButton
+                android:id="@+id/description_like_ib"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.6"
+                android:background="@drawable/grey"
+                android:src="@drawable/ic_action_like" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/productLayoutForDescription">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/product_details_onclick" />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

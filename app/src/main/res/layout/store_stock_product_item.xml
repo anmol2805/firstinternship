@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:background="#DDDDDD"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/store_stock_product_name_tv"
+            android:layout_width="0dp"
+            android:layout_height="40sp"
+            android:layout_weight="6"
+            android:paddingLeft="5sp"
+            android:gravity="left|center"
+            android:text="product name"
+            android:textColor="#010101"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40sp"
+            android:layout_weight="2"
+            android:text="Quantity"
+            android:padding="2sp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:id="@+id/store_stock_product_quantity_et"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="10sp"/>
+    </LinearLayout>
+</LinearLayout>

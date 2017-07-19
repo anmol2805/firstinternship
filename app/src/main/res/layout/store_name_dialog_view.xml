@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/store_name_dialog_choose_store_sv"
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:layout_margin="5sp"></android.support.v7.widget.SearchView>
+
+    <ListView
+        android:id="@+id/dialog_stores_name_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+    </ListView>
+</LinearLayout>

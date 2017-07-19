@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_contacts"
+        android:icon="@drawable/ic_menu_contacts"
+        android:title="Contacts" />
+    <item
+        android:id="@+id/nav_deals"
+        android:icon="@drawable/ic_menu_deal"
+        android:title="Deals" />
+    <item
+        android:id="@+id/nav_tasks"
+        android:icon="@drawable/ic_menu_tasks"
+        android:title="Tasks" />
+    <item
+        android:id="@+id/nav_feeds"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Feeds" />
+    <item
+        android:id="@+id/nav_leads"
+        android:icon="@drawable/ic_menu_leads"
+        android:title="Leads" />
+    <item
+        android:id="@+id/nav_accounts"
+        android:icon="@drawable/ic_menu_people"
+        android:title="Accounts" />
+
+</menu>
